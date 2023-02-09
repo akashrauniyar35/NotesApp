@@ -1,0 +1,1 @@
+export { deleteHandler } from './AddNoteService'

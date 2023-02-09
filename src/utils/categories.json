@@ -1,0 +1,30 @@
+{
+    "categories": [
+        {
+            "id": "09083109808",
+            "title": "Goal Evidence"
+        },
+        {
+            "id": "09083109508",
+            "title": "Support Coordination"
+        },
+        {
+            "id": "090831788808",
+            "title": "Active Duty"
+        }
+    ],
+    "clients": [
+        {
+            "id": "090831098056",
+            "title": "Belconnen Community Services"
+        },
+        {
+            "id": "090899809508",
+            "title": "Manly Warringah Pittwater Community Aid Service"
+        },
+        {
+            "id": "0908317646808",
+            "title": "Other clients"
+        }
+    ]
+}
