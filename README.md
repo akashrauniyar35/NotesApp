@@ -9,4 +9,4 @@ To install the app on ios run "react-native run-ios"
  - once proper version of cocapods are install and pods are installed simply go back to root folder and run "react-native run-ios"
  
  
- For installing on Android simply run react-native run-android
+ For installing on Android simply run npm or yarn install and then "react-native run-android"
