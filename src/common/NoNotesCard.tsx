@@ -8,7 +8,7 @@ const NoNotesCard = (props: Props) => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>No notes found!</Text>
-            <Text style={styles.text}>Please create a note ...</Text>
+            <Text style={styles.text}>Please add a note ...</Text>
         </View>
     )
 }

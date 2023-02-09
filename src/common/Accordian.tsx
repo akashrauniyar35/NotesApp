@@ -1,4 +1,4 @@
-import { FlatList, ListRenderItem, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { FlatList, ListRenderItem, StyleSheet, Text, Pressable, View } from 'react-native'
 import React from 'react'
 import Icon from 'react-native-vector-icons/Ionicons';
 import Divider from '../note/Divider';
@@ -28,14 +28,14 @@ const Accordian = (props: Props) => {
     const renderItem: ListRenderItem<ITEM> = ({ item }) => {
         const { title } = item
         return (
-            <TouchableOpacity onPress={() => onPress(title)}>
+            <Pressable onPress={() => onPress(title)}>
                 <Text style={styles.listText}>{title}</Text>
-            </TouchableOpacity>
+            </Pressable>
         )
     }
 
     return (
-        <TouchableOpacity onPress={onToggle}>
+        <Pressable onPress={onToggle}>
             <View style={styles.container}>
                 <View style={{ flexDirection: "row", alignItems: 'center' }}>
                     <Icon name={"person"} size={16} color={"#181B12"} />
@@ -60,7 +60,7 @@ const Accordian = (props: Props) => {
 
             </View>
 
-        </TouchableOpacity >
+        </Pressable >
     )
 }
 export default Accordian

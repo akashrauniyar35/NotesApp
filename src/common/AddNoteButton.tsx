@@ -50,7 +50,6 @@ const AddNoteButton = (props: Props) => {
         toggleClientsVisible()
     }
 
-
     //save a note function
     const onSaveNoteHandler = useCallback(() => {
         const newNote = {
@@ -67,8 +66,7 @@ const AddNoteButton = (props: Props) => {
             setSelectedCategory("");
             setSelectedClient("");
         })
-
-    }, [notes])
+    }, [notes, note, selectedCategory, selectedClient])
 
     return (
         <>
